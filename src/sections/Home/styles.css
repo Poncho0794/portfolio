@@ -1,6 +1,6 @@
 .home-container {
     background-color: var(--main-color);
-    padding: 16px;
+    padding: 72px;
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -12,6 +12,10 @@
 .home-container > img {
     height: 250px;
     border-radius: 200px;
+}
+
+.home-container > p {
+    max-width: 640px;
 }
 
 h1 {

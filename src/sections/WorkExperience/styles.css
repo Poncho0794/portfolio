@@ -1,0 +1,42 @@
+.work-experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:  24px;
+    align-items: center;
+}
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    margin: 16px 0;
+}
+.experience-item > img {
+    max-width: 173px;
+}
+.experience-item > p {
+    margin-top: 0px;
+}
+.work-experience-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+@media (min-width: 1024px) {
+    .experience-item {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin: 16px;
+        align-items: center;
+    }
+    .work-experience-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}

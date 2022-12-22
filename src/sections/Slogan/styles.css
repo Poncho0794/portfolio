@@ -16,6 +16,7 @@
     align-items: center;
 }
 
-h1 {
+.opacity-mask  > h1 {
     margin: 0;
+    text-align: center;
 }
