@@ -9,28 +9,41 @@ const WorkExperience = () => {
       <h1>Work Experience</h1>
       <div className="work-experience-row">
         <div className="experience-item">
-          <img src={webAppPhoto} alt="Web application"/>
-          <h2>Web Applications</h2>
-          <p>
-            Creating professional web application from scratch, designing and
-            structuring from the client requirements
-          </p>
+          <div className="img-container">
+            <img src={webAppPhoto} alt="Web application"/>
+          </div>
+          <div>
+            <h2>Web Applications</h2>
+            <p>
+              Creating professional web application from scratch, designing and
+              structuring from the client requirements
+            </p>
+          </div>
         </div>
         <div className="experience-item">
-          <img src={fullstackDev}  alt="Web application"/>
-          <h2>Fullstack Development</h2>
-          <p>
-            Working in both sides of an application, implemeting my own APIs,
-            connect differents serivces like AWS or MongoDB Atlas
-          </p>
+          <div className="img-container">
+            <img src={fullstackDev}  alt="Web application"/>
+          </div>
+          <div>
+            <h2>Fullstack Development</h2>
+            <p>
+              Working in both sides of an application, implemeting my own APIs,
+              connect differents serivces like AWS or MongoDB Atlas
+            </p>
+          </div>
+          
         </div>
         <div className="experience-item">
-          <img src={teaching}  alt="Web application"/>
-          <h2>Teaching</h2>
-          <p>
-            Teaching web development on differents courses and creating my own
-            online courses
-          </p>
+          <div className="img-container">
+            <img src={teaching}  alt="Web application"/>
+          </div>
+          <div>
+            <h2>Teaching</h2>
+            <p>
+              Teaching web development on differents courses and creating my own
+              online courses
+            </p>
+          </div>
         </div>
       </div>
     </div>

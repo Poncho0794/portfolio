@@ -9,10 +9,14 @@
     display: flex;
     flex-direction: column;
     width: 140px;
-    margin: 16px 0;
+    margin: 16px;
 }
-.experience-item > img {
-    max-width: 173px;
+.experience-item > .img-container {
+    height: 279px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .experience-item > p {
     margin-top: 0px;
@@ -24,6 +28,17 @@
     flex-direction: column;
 }
 
+@media (min-width: 400px) {
+    .experience-item {
+        width: 260px;
+    }
+    .work-experience-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
 
 @media (min-width: 1024px) {
     .experience-item {

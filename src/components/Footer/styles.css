@@ -1,0 +1,22 @@
+
+.footer-container {
+    width: 100%;
+    background-color: var(--main-color);
+    height: 96px;
+    justify-content: space-around;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-container > a > svg {
+    width: 64px;
+    height: 64px;
+    fill: #969696;
+}
+
+@media (min-width: 1024px) {
+    .footer-container {
+        padding: 24px 0;
+    }
+}
