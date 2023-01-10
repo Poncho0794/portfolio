@@ -18,8 +18,9 @@
     justify-content: center;
     align-items: center;
 }
-.experience-item > p {
+.experience-item  p {
     margin-top: 0px;
+    text-align: justify;
 }
 .work-experience-row {
     display: flex;

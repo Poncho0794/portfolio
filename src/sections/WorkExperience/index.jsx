@@ -28,7 +28,7 @@ const WorkExperience = () => {
             <h2>Fullstack Development</h2>
             <p>
               Working in both sides of an application, implemeting my own APIs,
-              connect differents serivces like AWS or MongoDB Atlas
+              connect differents services like AWS or MongoDB Atlas
             </p>
           </div>
           
